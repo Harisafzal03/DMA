@@ -697,7 +697,7 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] pt-12 flex flex-col justify-center'>
+        <div className='w-full xl:w-[80%] 2xl:w-[65%] pt-12 flex flex-col justify-center'>
           <div className='flex flex-col text-center self-center'>
             <p className='font-[Roboto] text-5xl text-[#0D0D0D] font-extrabold'>Our Methodology</p>
             <p className='font-[Roboto] text-2xl text-[#414A58] font-bold py-4'>Our experts pore over every on-page element.</p>
@@ -758,7 +758,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered2(true);setHoveredDesc(p3)}}
                 onMouseLeave={() => setIsHovered2(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered2 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered2 ? `bg-[#5fa9da]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -769,7 +769,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered2 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered2 ? `bg-[#5fa9da]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -780,7 +780,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered3(true);setHoveredDesc(p4)}}
                 onMouseLeave={() => setIsHovered3(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered3 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered3 ? `bg-[#5fa9da]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -791,7 +791,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered3 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered3 ? `bg-[#5fa9da]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -802,7 +802,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered4(true);setHoveredDesc(p5)}}
                 onMouseLeave={() => setIsHovered4(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered4 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered4 ? `bg-[#bf77d0]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -813,7 +813,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered4 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered4 ? `bg-[#bf77d0]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -824,7 +824,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered5(true);setHoveredDesc(p6)}}
                 onMouseLeave={() => setIsHovered5(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered5 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered5 ? `bg-[#988bbc]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -835,7 +835,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered5 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered5 ? `bg-[#988bbc]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -846,7 +846,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered6(true);setHoveredDesc(p7)}}
                 onMouseLeave={() => setIsHovered6(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered6 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered6 ? `bg-[#e06339]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -857,7 +857,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered6 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered6 ? `bg-[#e06339]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -868,7 +868,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered7(true);setHoveredDesc(p8)}}
                 onMouseLeave={() => setIsHovered7(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered7 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered7 ? `bg-[#dfe04e]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -879,7 +879,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered7 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered7 ? `bg-[#dfe04e]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -890,7 +890,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered8(true);setHoveredDesc(p9)}}
                 onMouseLeave={() => setIsHovered8(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered8 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered8 ? `bg-[#f1b258]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -901,7 +901,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered8 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered8 ? `bg-[#f1b258]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -912,7 +912,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered9(true);setHoveredDesc(p10)}}
                 onMouseLeave={() => setIsHovered9(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered9 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered9 ? `bg-[#d479a3]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -923,7 +923,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered9 ? `bg-[${panel.bg}]`:'bg-[#898989]'}`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 ${isHovered9 ? `bg-[#d479a3]`:'bg-[#898989]'}`}></p>
                   </div>
                 </div>
             ))}
@@ -1008,7 +1008,7 @@ function App() {
             {p3.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#5fa9da]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1019,7 +1019,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#5fa9da]`}></p>
                   </div>
                 </div>
             ))}
@@ -1038,7 +1038,7 @@ function App() {
             {p4.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#5fa9da]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1049,7 +1049,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#5fa9da]`}></p>
                   </div>
                 </div>
             ))}
@@ -1068,7 +1068,7 @@ function App() {
             {p5.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#bf77d0]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1079,7 +1079,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#bf77d0]`}></p>
                   </div>
                 </div>
             ))}
@@ -1098,7 +1098,7 @@ function App() {
             {p6.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#988bbc]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1109,7 +1109,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#988bbc]`}></p>
                   </div>
                 </div>
             ))}
@@ -1128,7 +1128,7 @@ function App() {
             {p7.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#e06339]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1139,7 +1139,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#e06339]`}></p>
                   </div>
                 </div>
             ))}
@@ -1158,7 +1158,7 @@ function App() {
             {p8.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#dfe04e]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1169,7 +1169,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#dfe04e]`}></p>
                   </div>
                 </div>
             ))}
@@ -1188,7 +1188,7 @@ function App() {
             {p9.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#f1b258]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1199,7 +1199,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#f1b258]`}></p>
                   </div>
                 </div>
             ))}
@@ -1218,7 +1218,7 @@ function App() {
             {p8.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 bg-[#d479a3]`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -1229,7 +1229,7 @@ function App() {
                       <div class="absolute bottom-[-2px] w-full z-20  left-0 right-0">
                         <p className=" w-fit mx-auto text-center   text-[8px] leading-[9px] font-bold py-1 f-f-DM">{panel.des}</p>
                       </div>
-                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[${panel.bg}]`}></p>
+                        <p className={`absolute bottom-0 w-full left-0 right-0 h-[15px]  border-t-[1px] border-gray-800 bg-[#d479a3]`}></p>
                   </div>
                 </div>
             ))}
