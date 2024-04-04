@@ -5,6 +5,9 @@ import Call from './asset/call.svg';
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
 import eye from './asset/eye.svg';
+import info from './asset/info.svg';
+import social from './asset/social.svg';
+import Case from './asset/case.svg';
 import traffic from './asset/traffic.svg';
 import brand from './asset/brand.svg';
 import luxury from './asset/luxury.png';
@@ -547,11 +550,11 @@ function App() {
           <img src={Vector} alt="Logo" width={146} className=''/>
           </div>
           <div className='flex items-center'>
-            <div className='md:flex max-md:hidden md:block'>
+            <div className='md:flex max-md:hidden md:block cursor-pointer'>
             <img src={Call} alt="Callicon" width={13} className='mr-3'/>
             <p className='text-white font-[Roboto] text-base font-medium'>800-569-2754</p>
             </div>
-            <div className='sm:flex max-sm:hidden sm:block items-center ml-4'>
+            <div className='sm:flex max-sm:hidden sm:block items-center ml-4 cursor-pointer'>
               <p className='uppercase text-sm text-[#FFC145] font-semibold px-3 md:px-4 lg:px-6 py-2 border border-[#FFC145]'>request a free quote</p>
             </div>
           </div>
@@ -560,14 +563,14 @@ function App() {
       </header>
       <div className='flex justify-center max-[1000px]:hidden block'>
         <div className='flex w-[90%] xl:w-[80%] 2xl:w-[65%] justify-between'>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>seo</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>ppc</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>REPUTATION MANAGEMENT</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>SOCIAL MEDIA</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>WEB DEVELOPMENT</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>MARKETING AUTOMATION</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>INDUSTRIES</p>
-          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>ABOUT DMA</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>seo</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>ppc</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>REPUTATION MANAGEMENT</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>SOCIAL MEDIA</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>WEB DEVELOPMENT</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>MARKETING AUTOMATION</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>INDUSTRIES</p>
+          <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold cursor-pointer'>ABOUT DMA</p>
         </div>
       </div>
       <div className='flex justify-center bg-[#181e4e]'>
@@ -593,7 +596,7 @@ function App() {
             <input className='w-full text-base border-b-2 border-black h-[33px] mt-4 bg-[#EFEFEF] px-1 placeholder-[#4B587C]' placeholder='Budget'/>
             <input className='w-full text-base border-b-2 border-black h-[33px] mt-4 bg-[#EFEFEF] px-1 placeholder-[#4B587C]' placeholder='Best Start Date'/>
             <div className='w-full'>
-              <p className='py-3 uppercase text-center text-base bg-[#FFC145] mt-6'>GET an Estimate</p>
+              <p className='py-3 uppercase text-center text-base bg-[#FFC145] mt-6 cursor-pointer'>GET an Estimate</p>
             </div>
           </div>
         </div>
@@ -602,31 +605,31 @@ function App() {
         <div className='flex flex-col w-[90%] xl:w-[80%] 2xl:w-[65%] py-4'>
           <p className='text-xl max-[1069px]:mx-auto text-[#181E4E] font-bold'>CONTENT MARKETING THAT GETS LEADS AND SALES</p>
           <div className='flex max-[1069px]:grid max-[1069px]:grid-cols-2 max-[700px]:grid-cols-1 max-[1069px]:gap-2 max-[1069px]:mx-auto py-3 justify-between'>
-            <div className='w-[300px] flex border justify-around bg-white'>
+            <div className='w-[300px] flex border justify-around bg-white cursor-pointer'>
               <img src={eye} alt="Callicon" width={50} className='mx-3'/>
               <div className='py-3 pr-9'>
                 <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Blogs</p>
                 <p className='text-xs text-[#181E4E] font-normal'>Build a blog that automatically generates traffic for your website 24/7/365.</p>
               </div>
             </div>
-            <div className='w-[300px] flex border justify-around bg-white'>
-              <img src={eye} alt="Callicon" width={50} className='mx-3'/>
+            <div className='w-[300px] flex border justify-around bg-white cursor-pointer'>
+              <img src={info} alt="Callicon" width={50} className='mx-3'/>
               <div className='py-3 pr-9'>
-                <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Blogs</p>
+                <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Infographics</p>
                 <p className='text-xs text-[#181E4E] font-normal'>Grow your brand awareness with insightful and visually stunning infographics that dazzle the web.</p>
               </div>
             </div>
-            <div className='w-[300px] flex border justify-around bg-white'>
-              <img src={eye} alt="Callicon" width={50} className='mx-3'/>
+            <div className='w-[300px] flex border justify-around bg-white cursor-pointer'>
+              <img src={social} alt="Callicon" width={50} className='mx-3'/>
               <div className='py-3 pr-9'>
-                <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Blogs</p>
+                <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Social Media</p>
                 <p className='text-xs text-[#181E4E] font-normal'>Fuse your content and social media strategies together to boost your organic visibility online.</p>
               </div>
             </div>
-            <div className='w-[300px] flex border justify-around bg-white'>
-              <img src={eye} alt="Callicon" width={50} className='mx-3'/>
+            <div className='w-[300px] flex border justify-around bg-white cursor-pointer'>
+              <img src={Case} alt="Callicon" width={50} className='mx-3'/>
               <div className='py-3 pr-9'>
-                <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Blogs</p>
+                <p className='font-[Lato] text-xl text-[#181E4E] font-bold'>Case Studies</p>
                 <p className='text-xs text-[#181E4E] font-normal'>Create compelling case studies that showcase your business’ unique capabilities and advantages.</p>
               </div>
             </div>
