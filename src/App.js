@@ -18,6 +18,10 @@ import others from './asset/others.png';
 import arrow from './asset/arrow.svg';
 import service from './asset/service.svg';
 import sales from './asset/sales.svg';
+import vectorwhite from './asset/vectorwhite.svg';
+import call from './asset/call1.svg';
+import location from './asset/location.svg';
+import email from './asset/email.svg';
 import './App.css';
 const data = [
   {
@@ -1288,6 +1292,88 @@ function App() {
           <img src={sales} alt="Multiply your traffic" className='w-full py-12'/>
         </div>
       </div>
+      <div className='flex bg-white justify-center'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] pt-10 flex flex-col justify-center'>
+        <div className='flex justify-center'>
+          <img src={vectorwhite} alt="Logo" width={225} className=''/>
+          </div>
+          <div className='flex justify-around max-lg:grids max-lg:grid max-lg:grid-cols-3 max-lg:place-items-center max-sm:grid-cols-2 max-[350px]:grid-cols-1'>
+            <div className='py-2'>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2'>WHAT WE DO</p>
+              <p className='font-normal text-sm text-[#181E4E] py-2'>SEO</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>PPC</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Reputation Management</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Social Media</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Web Development</p>
+              <p className='font-normal text-sm text-[#181E4E]'>Marketing Automation</p>
+            </div>
+            <div className='py-2'>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2'>INDUSTRIES</p>
+              <p className='font-normal text-sm text-[#181E4E] py-2'>Luxury Communities</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Franchise</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>E-Commerce</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Crypto</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'> Assisted Living </p>
+              <p className='font-normal text-sm text-[#181E4E]'>Other</p>
+            </div>
+            <div className='py-2'>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2'>COMPANY</p>
+              <p className='font-normal text-sm text-[#181E4E] py-2'>About Us</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Our Team</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Testimonials</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Awards</p>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2 uppercase'>News</p>
+              <p className='font-normal text-sm text-[#181E4E] py-2'>Press & Media</p>
+            </div>
+            <div className='py-2'>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2'>CAREERS</p>
+              <p className='font-normal text-sm text-[#181E4E] py-2'>Careers</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Applicant Privacy</p>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2 uppercase'>CONTACT US</p>
+              <p className='font-normal text-sm text-[#181E4E] py-2'>Support</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>Business Inquiries</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>@Facebook</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>@Twitter</p>
+              <p className='font-normal text-sm text-[#181E4E] pb-2'>@LinkedIn</p>
+            </div>
+            <div className='py-2'>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2'>Blog</p>
+              <p className='font-normal text-sm text-[#666666] py-2 pb-9'>Read the latest Digital <br/>Marketing news</p>
+              <p className='font-[Lato] text-base font-black text-[#181E4E] py-2'>The DMA Bulletin</p>
+              <p className='font-normal text-sm text-[#666666] py-2 '>All our latest data stories &<br/>insights straight to your inbox</p>
+              <input placeholder='Enter Your Email' className='text-[#9CA3AF] border border-[#D1D1D1] px-2'/><br/>
+              <button className='text-sm text-black bg-[#E7E8F3] font-bold px-6 py-1 uppercase mt-2'>Contact our team</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='flex bg-[#F8F8FF] justify-center'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] pt-10 flex max-md:flex-col justify-between '>
+          <div className='flex items-center max-[1070px]:flex-col'>
+          <div className='flex items-center'>
+          <img src={call} alt="Multiply your traffic" className='w-[43px] py-12'/>
+          <p className='text-[#181E4E] font-[Montserrat] font-extrabold text-2xl'>Need Help? Say Hello</p>
+          </div>
+          <p className='text-[#181E4E] font-[Montserrat] font-extrabold text-5xl max-[400px]:text-3xl'>800-569-2754</p>
+          </div>
+          <div className='mr-6 flex flex-col my-auto max-md:mx-auto max-md:py-10'>
+            <div className='flex'>
+              <img src={location} alt='locatio' className='w-[20px]' />
+              <p className='text-black font-normal text-sm'>111 E. Wacker Drive Chicago, IL 60601</p>
+            </div>
+            <div className='flex'>
+              <img src={email} alt='locatio' className='w-[20px]' />
+              <p className='text-black font-normal text-sm'>sales@digitalmarketingagency.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className='flex bg-white justify-center'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-center'>
+          <p className='font-[Lato] text-sm font-normal text-black py-2 mt-3'>Copyright © 2023 Digital Marketing Agency.  Terms & Conditions | Privacy Statement | Cookie Notice | Global Unsubscribe | Sitemap</p>
+        </div>
+      </div>
+      
     </div>
   );
 }
