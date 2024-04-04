@@ -547,18 +547,18 @@ function App() {
           <img src={Vector} alt="Logo" width={146} className=''/>
           </div>
           <div className='flex items-center'>
-            <div className='flex'>
+            <div className='md:flex max-md:hidden md:block'>
             <img src={Call} alt="Callicon" width={13} className='mr-3'/>
             <p className='text-white font-[Roboto] text-base font-medium'>800-569-2754</p>
             </div>
-            <div className='flex items-center ml-4'>
-              <p className='uppercase text-sm text-[#FFC145] font-semibold px-6 py-2 border border-[#FFC145]'>request a free quote</p>
+            <div className='sm:flex max-sm:hidden sm:block items-center ml-4'>
+              <p className='uppercase text-sm text-[#FFC145] font-semibold px-3 md:px-4 lg:px-6 py-2 border border-[#FFC145]'>request a free quote</p>
             </div>
           </div>
         </div>
         </div>
       </header>
-      <div className='flex justify-center'>
+      <div className='flex justify-center max-[1000px]:hidden block'>
         <div className='flex w-[90%] xl:w-[80%] 2xl:w-[65%] justify-between'>
           <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>seo</p>
           <p className='text-sm font-[Montserrat] uppercase py-4 font-semibold'>ppc</p>
@@ -571,15 +571,15 @@ function App() {
         </div>
       </div>
       <div className='flex justify-center bg-[#181e4e]'>
-        <div className='flex w-[90%] xl:w-[80%] 2xl:w-[65%] justify-between'>
-          <div className='w-[45%]'>
-            <p className='text-6xl font-[Lato] text-[#F1B257] font-black mt-32'>#1 Ranked</p>
-            <p className='text-6xl font-[Lato] text-white font-normal mt-6'>CONTENT </p>
-            <p className='text-6xl font-[Lato] text-white font-normal'>MARKETING </p>
-            <p className='text-6xl font-[Lato] text-white font-normal'>AGENCY</p>
+        <div className='flex max-[1069px]:flex-col max-[1069px]:justify-center w-[90%] xl:w-[80%] 2xl:w-[65%] justify-between'>
+          <div className='max-[1069px]:w-full max-[1069px]:text-center w-[45%]'>
+            <p className='text-6xl max-sm:text-4xl font-[Lato] text-[#F1B257] font-black mt-32'>#1 Ranked</p>
+            <p className='text-6xl max-sm:text-4xl font-[Lato] text-white font-normal mt-6'>CONTENT </p>
+            <p className='text-6xl max-sm:text-4xl font-[Lato] text-white font-normal'>MARKETING </p>
+            <p className='text-6xl max-sm:text-4xl font-[Lato] text-white font-normal'>AGENCY</p>
             <p className='text-lg text-white font-normal mt-5 mb-24'>Fuel your SEO strategy with a lead-driven conversion-centric content strategy.</p>
           </div>
-          <div className='w-[35%] mt-16 py-4 px-7 bg-white'>
+          <div className='lg:w-[35%] lg:mt-16 py-4 px-7 bg-white max-[1069px]:mx-auto'>
             <p className='font-[Lato] text-3xl text-[#181E4E] font-black uppercase leading-[42px]'>Request a quote</p>
             <p className='font-[Lato] text-base text-[#181E4E] font-normal uppercase leading-[38px] tracking-[2px]'>Its Fast, Easy & Free</p>
             <input className='w-full border-b-2 border-black h-[55px] px-1 placeholder-[#4B587C]' placeholder='Name' type='text'/>
@@ -600,8 +600,8 @@ function App() {
       </div>
       <div className='flex justify-center bg-[#f9f9ff]'>
         <div className='flex flex-col w-[90%] xl:w-[80%] 2xl:w-[65%] py-4'>
-          <p className='text-xl text-[#181E4E] font-bold'>CONTENT MARKETING THAT GETS LEADS AND SALES</p>
-          <div className='flex py-3 justify-between'>
+          <p className='text-xl max-[1069px]:mx-auto text-[#181E4E] font-bold'>CONTENT MARKETING THAT GETS LEADS AND SALES</p>
+          <div className='flex max-[1069px]:grid max-[1069px]:grid-cols-2 max-[700px]:grid-cols-1 max-[1069px]:gap-2 max-[1069px]:mx-auto py-3 justify-between'>
             <div className='w-[300px] flex border justify-around bg-white'>
               <img src={eye} alt="Callicon" width={50} className='mx-3'/>
               <div className='py-3 pr-9'>
@@ -635,7 +635,7 @@ function App() {
       </div>
       <div className='flex bg-image w-screen justify-center'>
         <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] py-24'>
-          <div className='px-8 border-l-2 border-white w-[60%]'>
+          <div className='px-8 border-l-2 border-white md:w-[60%] max-[1069px]:mx-auto'>
             <p className='font-[Lato] text-5xl text-white font-extrabold uppercase'>Let Us Fuel Your Brand</p>
             <p className='font-[Lato] text-2xl text-white font-bold py-6'>Use content marketing to improve lead volume.</p>
             <p className='text-lg text-white font-normal pb-6'>More and more businesses are seeing the value that content marketing brings to the table. Content marketing provides businesses with a way to use their unique insight to bring in prospective buyers. Our content marketing experts understand not only the value of content marketing, but intricate ways to tailor content marketing to drive the highest-quality leads possible. Let our content marketing experts create a comprehensive content marketing strategy to create compelling content and use it to increase your conversions.</p>
@@ -644,25 +644,25 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between'>
-          <div className='w-[55%] py-48'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex max-[1069px]:flex-col justify-between max-[1069px]:justify-center max-[1069px]:place-items-center'>
+          <div className='md:w-[55%] py-24 xl:py-36 2xl:py-48'>
             <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold uppercase'>MULTIPLY YOUR TRAFFIC</p>
             <p className='font-[Lato] text-2xl text-[#374151] font-bold py-6'>WE WILL BUILD YOUR PREMIUM CONTENT.</p>
             <p className='text-lg text-black font-normal pb-12'>One of the biggest benefits of a content marketing campaign is the relevance of the audience it attracts. By researching your target audience, our experts develop content that will be of direct interest to them, then promote it to drastically increase relevant traffic.</p>
             <button className='text-base text-black bg-[#FFC145] font-bold px-6 py-3 uppercase'>learn more</button>
           </div>
-          <img src={traffic} alt="Multiply your traffic" className='w-[40%]'/>
+          <img src={traffic} alt="Multiply your traffic" className='md:w-[40%]'/>
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between'>
-          <div className='w-[55%] py-48'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex max-[1069px]:flex-col justify-between max-[1069px]:place-items-center'>
+          <div className='md:w-[55%] py-24 xl:py-36 2xl:py-48'>
             <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold uppercase'>High-Quality Content for Your Brand.</p>
             <p className='font-[Lato] text-2xl text-[#374151] font-bold py-6'>Our content marketing services drive new customers.</p>
             <p className='text-lg text-black font-normal pb-12'>One of the biggest benefits of having quality content is that it establishes your brand's credibility. If your content is compelling and engaging, a reader is going to be more willing to trust you. We write articles that are well-researched and provide the reader with all the information they need to trust the conclusions being made. This in turn means that the leads you'll get from your content marketing strategy will have a much higher conversion rate due to the level of trust we achieve for your brand.</p>
             <button className='text-base text-black bg-[#FFC145] font-bold px-6 py-3 uppercase'>Get more information</button>
           </div>
-          <img src={brand} alt="Multiply your traffic" className='w-[40%] py-24'/>
+          <img src={brand} alt="Multiply your traffic" className='md:w-[40%] py-24'/>
         </div>
       </div>
       <div className='flex bg-white justify-center'>
@@ -671,7 +671,7 @@ function App() {
             <p className='text-sm text-[#0066BA] font-bold tracking-[1.5px] uppercase'>industries</p>
             <p className='font-[Lato] text-3xl text-[#0D0D0D] font-black pt-3 pb-10 tracking-[2px]'>Find out how you can leverage content to become a subject matter expert in your niche.</p>
           </div>
-          <div className='flex'>
+          <div className='flex max-[1069px]:hidden block'>
           {data.map((card, index) => (
         <div
           key={index}
@@ -685,12 +685,31 @@ function App() {
           <div className='h-[]'>
             <div className='container'>
               <img src={card.image} alt="luxury communities" className='opacity-45'/>
-              {hoveredIndex === index && <div className="centered">{card.description}</div>} {/* Render description only for the hovered card */}
+              {hoveredIndex === index && <div className="centered max-[1069px]:hidden block">{card.description}</div>} {/* Render description only for the hovered card */}
             </div>
             <div className='arrow py-[72px] px-8'>
               <img src={arrow} alt="arrow" className='opacity-25'/>
             </div>
           </div>
+        </div>
+      ))}
+          </div>
+          <div className='flex flex-col max-[1069px]:block hidden'>
+          {data.map((card, index) => (
+        <div
+          key={index}
+          className='md:w-[90%] h-[100px] my-1 flex bg-gradient-to-r from-black via-gray-900 to-white border-l-[1px]'
+        >
+          <div className='px-8 w-1/4'>
+            <p className='text-base font-[Roboto] text-white font-normal'>{card.name}</p>
+            <p className='text-2xl leading-[36px] text-white font-bold'>{card.title}</p>
+          </div>
+            <div className='w-2/4'>
+              <img src={card.image} alt="luxury communities" className='h-[100px] w-full object-cover opacity-45'/>
+            </div>
+            <div className='arrow py-[72px] px-8 w-1/4'>
+              <img src={arrow} alt="arrow" className='opacity-25'/>
+            </div>
         </div>
       ))}
           </div>
@@ -707,7 +726,7 @@ function App() {
             </div>
           </div>
           <div>
-          <div className='flex items-end pt-16 pb-6'>
+          <div className='flex items-end pt-16 pb-6 max-[1069px]:hidden block'>
             <div className='w-1/10 p-2 flex flex-col gap-2'>
             {p1.map((panel) => (
                 <div className="border rounded-lg border-black overflow-hidden relative"
@@ -929,7 +948,7 @@ function App() {
             ))}
             </div>
         </div>
-     {hoveredDesc && <div class="hidden lg:flex justify-start gap-x-14 items-center w-[80%] mx-auto pb-9">
+     {hoveredDesc && <div class="hidden max-[1069px]:hidden block lg:flex justify-start gap-x-14 items-center w-[80%] mx-auto pb-9">
         <div class={`w-20 h-1 ${hoveredDesc && `bg-[${hoveredDesc[1].bg}]` }`}></div>
           <p class={`text-5xl font-extrabold font-[Lato] leading-[52px] ${hoveredDesc && `text-[${hoveredDesc[1].bg}]` }`}>{hoveredDesc && hoveredDesc[0].des}</p>
           </div>}
@@ -937,14 +956,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>Content</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex max-[1069px]:flex-col max-[1069px]:place-items-center justify-between py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>Content</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Keep your customers coming with captivating content that captures your company’s character.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>What type of content, how it's presented, and how often you present it is the key to a successful SEO marketing strategy. Conforming the product and/or service information, multimedia, and other assets on your website to search engine standards as well as consumer expectations goes a long way to cli...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>REQUEST A CONTENT AUDIT</button>
           </div>
-          <div className=' p-2 grid grid-cols-2 gap-2'>
+          <div className='p-2 grid grid-cols-2 gap-2 max-[1069px]:py-10'>
             {p1.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -967,14 +986,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>Architecture</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>Architecture</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Even fully optimized content needs a well-organized site structure to yield the best SEO results.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>Website architecture affects a search engine crawler's ability to index your web pages, a user's experience across multimedia devices, and the safety of your business. That's why mobile-friendly, cross-parity, route-redundant, and HTTPS-compliant perform better.<br/><br/>A stron...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>Request an Onpage SEO Audit</button>
           </div>
-          <div className='p-2 grid grid-cols-2 gap-2'>
+          <div className='p-2 grid grid-cols-2 gap-2 max-[1069px]:py-10'>
             {p2.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -997,14 +1016,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-[#181e4e] justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-white font-extrabold'>HTML</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-white font-extrabold max-[1069px]:text-center'>HTML</p>
             <p className='font-[Lato] text-2xl text-white font-bold py-6'>Use your HTML elements to your advantage and improve your crawlability.</p>
             <p className='text-lg text-white font-normal pl-4 border-l-2 border-[#1D4ED8]'>HTML is a scripting language that puts titles, paragraphs, images, videos, and other assets onto the pages for your clients, customers, and search engines to see.<br/><br/>Serving up SEO-rich content means using the right HTML tags to help guide search engine crawlers through yo...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>GET A HTML SITE AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-3 items-center my-auto gap-2 max-[1069px]:py-10'>
             {p3.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1027,14 +1046,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>Architecture</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>Architecture</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Even fully optimized content needs a well-organized site structure to yield the best SEO results.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>Website architecture affects a search engine crawler's ability to index your web pages, a user's experience across multimedia devices, and the safety of your business. That's why mobile-friendly, cross-parity, route-redundant, and HTTPS-compliant perform better.<br/><br/>A stron...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>Request an Onpage SEO Audit</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-2 my-auto gap-2 max-[1069px]:py-10'>
             {p4.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1057,14 +1076,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>Links</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>Links</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Give your content the attention it deserves with backlinks that send you traffic from beyond Google’s borders.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>Links are important for navigating from within and without your website. Content marketing strategies are majorly concerned with links that point to your website from other web spaces -- these are called "backlinks".<br/><br/>The more backlinks from high-quality sources you can ...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>GET A BACKLINK AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-2 my-auto gap-2 max-[1069px]:py-10'>
             {p5.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1087,14 +1106,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>User</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>User</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Make your content easy to read so you can turn visitors into customers.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>A critical metric for evaluating SEO scores is the user's experience (UX) browsing a website. While difficult to quantify, there are some flags and strategies that can be used to boost a website's ranking.<br/><br/>Making sure your content delivers information tailored to consum...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>GET A CRO AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-3 my-auto gap-2 max-[1069px]:py-10'>
             {p6.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1117,14 +1136,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-[#181e4e] justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-white font-extrabold'>Toxins</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-white font-extrabold max-[1069px]:text-center'>Toxins</p>
             <p className='font-[Lato] text-2xl text-white font-bold py-6'>Don’t let your website fall victim to unnecessary SEO penalties.</p>
             <p className='text-lg text-white font-normal pl-4 border-l-2 border-[#1D4ED8]'>Marketing content comes with its own set of shortcuts, tricks, tips, and hacks. Whether it's keyword stuffing, privacy violations, or pirating other content there are SEO pitfalls that you must avoid if you want to stay on a search engine's whitelist.<br/><br/>Avoiding toxic SEO...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>GET A SITE PENALTY AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2 max-[1069px]:py-10'>
             {p7.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1147,14 +1166,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>Local</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>Local</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Incorporate local SEO into your content strategy to amplify your physical presence.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>Aside from a few technical areas like registering on Google's My Business index, content-driven marketing is the best way to influence your website's SEO on a local level. <br/><br/>A steady stream of content allows you to saturate your website with location-specific information...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>GET A CRO AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-3 my-auto gap-2 max-[1069px]:py-10'>
             {p8.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1177,14 +1196,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold'>Publishing</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold max-[1069px]:text-center'>Publishing</p>
             <p className='font-[Lato] text-2xl text-[#414A58] font-bold py-6'>Let your content go viral by publishing it on relevant platforms that put you on the mainstage.</p>
             <p className='text-lg text-black font-normal pl-4 border-l-2 border-[#1D4ED8]'>Publishing platforms such as Google News, Google Discover, and other search engines’ 'Top Stories' divisions can give a website access to hundreds of thousands of new users a day. A strong content marketing strategy raises your chances of "getting seen" all the higher.<br/><br/>...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>GET A CRO AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-3 my-auto gap-2 max-[1069px]:py-10'>
             {p9.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1207,14 +1226,14 @@ function App() {
         </div>
       </div>
       <div className='flex bg-[#181e4e] justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between py-12'>
-          <div className='w-[70%]'>
-            <p className='font-[Lato] text-5xl text-white font-extrabold'>Ecommerce</p>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between max-[1069px]:flex-col max-[1069px]:place-items-center py-12'>
+          <div className='md:w-[70%]'>
+            <p className='font-[Lato] text-5xl text-white font-extrabold max-[1069px]:text-center'>Ecommerce</p>
             <p className='font-[Lato] text-2xl text-white font-bold py-6'>Turn your content into an inbound marketing and money-making machine that helps grow your eCommerce store.</p>
             <p className='text-lg text-white font-normal pl-4 border-l-2 border-[#1D4ED8]'>The best performing eCommerce websites follow these two strategies: SEO-optimization and A/B testing products and designs. Satisfying search engines leads to more organic traffic and satisfying customers leads to higher conversion rates.<br/><br/>90% of all web browsing is done ...READ MORE</p>
             <button className='text-base text-black bg-[#FFC145] font-bold mt-11 px-6 py-3 uppercase'>REQUEST AN ECOMMERCE SEO AUDIT</button>
           </div>
-          <div className='p-2 grid grid-cols-2 grid-rows-4 gap-2'>
+          <div className='p-2 grid grid-cols-2 grid-rows-3 my-auto gap-2 max-[1069px]:py-10'>
             {p8.map((panel) => (
                 <div className="border w-[89px] h-[85px] rounded-lg border-black overflow-hidden relative">
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
@@ -1237,19 +1256,19 @@ function App() {
         </div>
       </div>
       <div className='flex bg-white justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex justify-between'>
-          <div className='w-[60%] py-48'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] flex max-[1069px]:flex-col justify-between max-[1069px]:justify-center max-[1069px]:place-items-center'>
+          <div className='md:w-[60%] py-24 xl:py-36 2xl:py-48'>
             <p className='font-[Lato] text-5xl text-[#1B1D28] font-extrabold uppercase'>LET US WRITE FOR GOOGLE</p>
             <p className='font-[Lato] text-2xl text-[#374151] font-bold py-6'>SEARCH ENGINES LOVE OUR CONTENT</p>
             <p className='text-lg text-black font-normal pb-12'>Content marketing is a long-term investment with SEO benefits as well as direct traffic benefits. As a result, traffic increases are not just short-term; our clients enjoy having their content prominently featured in search engines and major websites for long-term traffic improvements and SEO benefit.</p>
             <button className='text-base text-black bg-[#FFC145] font-bold px-6 py-3 uppercase'>Start now</button>
           </div>
-          <img src={service} alt="Multiply your traffic" className='w-[35%] py-24'/>
+          <img src={service} alt="Multiply your traffic" className='md:w-[35%] py-24'/>
         </div>
       </div>
       <div className='flex bg-image2 w-screen justify-center'>
-        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] py-24 flex justify-end'>
-          <div className='pl-8 border-l-2 border-white w-[55%]'>
+        <div className='w-[90%] xl:w-[80%] 2xl:w-[65%] py-24 flex justify-end max-[1069px]:justify-center'>
+          <div className='pl-8 border-l-2 border-white md:w-[55%]'>
             <p className='font-[Lato] text-5xl text-white font-extrabold'>Drive high quality traffic at the lowest cost.</p>
             <p className='font-[Lato] text-2xl text-white font-bold py-6'>Request an ongoing content marketing strategy.</p>
             <p className='text-lg text-white font-normal pb-6'>Content marketing is constantly evolving. Not only are we looking for new ways to identify relevant channels, we are also working diligently to improve upon our existing campaigns. We continue to work to improve the visibility of your articles to make them more meaningful to your lead generation and SEO efforts. Our team continues to monitor and report upon how your content is performing and which pieces of content are giving you the greatest results.</p>
