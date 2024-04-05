@@ -746,7 +746,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered(true);setHoveredDesc(p1)}}
                 onMouseLeave={() => setIsHovered(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered ? `bg-[#9ac255]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered ? `bg-[#9ac255] text-[#9ac255]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -768,7 +768,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered1(true);setHoveredDesc(p2)}}
                 onMouseLeave={() => setIsHovered1(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered1 ? `bg-[#82bf8b]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered1 ? `bg-[#82bf8b] text-[#82bf8b]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -790,7 +790,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered2(true);setHoveredDesc(p3)}}
                 onMouseLeave={() => setIsHovered2(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered2 ? `bg-[#5fa9da]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered2 ? `bg-[#5fa9da] text-[#5fa9da]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -812,7 +812,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered3(true);setHoveredDesc(p4)}}
                 onMouseLeave={() => setIsHovered3(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered3 ? `bg-[#5fa9da]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered3 ? `bg-[#5fa9da] text-[#5fa9da]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -834,7 +834,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered4(true);setHoveredDesc(p5)}}
                 onMouseLeave={() => setIsHovered4(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered4 ? `bg-[#bf77d0]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered4 ? `bg-[#bf77d0] text-[#bf77d0]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -856,7 +856,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered5(true);setHoveredDesc(p6)}}
                 onMouseLeave={() => setIsHovered5(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered5 ? `bg-[#988bbc]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered5 ? `bg-[#988bbc] text-[#988bbc]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -878,7 +878,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered6(true);setHoveredDesc(p7)}}
                 onMouseLeave={() => setIsHovered6(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered6 ? `bg-[#e06339]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered6 ? `bg-[#e06339] text-[#e06339]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -900,7 +900,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered7(true);setHoveredDesc(p8)}}
                 onMouseLeave={() => setIsHovered7(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered7 ? `bg-[#dfe04e]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered7 ? `bg-[#dfe04e] text-[#dfe04e]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -922,7 +922,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered8(true);setHoveredDesc(p9)}}
                 onMouseLeave={() => setIsHovered8(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered8 ? `bg-[#f1b258]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered8 ? `bg-[#f1b258] text-[#f1b258]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
@@ -944,7 +944,7 @@ function App() {
                 onMouseEnter={() => {setIsHovered9(true);setHoveredDesc(p10)}}
                 onMouseLeave={() => setIsHovered9(false)}>
                   <div className="relative  w-[89px] h-[85px] rounded-lg bg-white px-1 py-1">
-                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered9 ? `bg-[#d479a3]`:'bg-[#898989]'}`}></p>
+                    <p className={`absolute right-[-37px]  w-[70px] h-[30px] top-0  rotate-45 border-[1px] border-gray-800 ${isHovered9 ? `bg-[#d479a3] text-[#d479a3]`:'bg-[#898989]'}`}></p>
                     <p className="text-[11px] absolute right-1">{panel.num}</p>
                     <div>
                       <p className=" text-[26px] font-bold f-f-DM leading-[30px]">{panel.title}</p>
