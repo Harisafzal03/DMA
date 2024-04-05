@@ -546,7 +546,7 @@ function App() {
       });
     });
   }, [data]);
-  const textColorClass = hoveredDesc ? `text-${hoveredDesc[1].bg}` : '';
+  const textColorClass = hoveredDesc ? `${hoveredDesc[1].bg}` : '';
   return (
     <div>
       <header>
