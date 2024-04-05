@@ -962,7 +962,7 @@ function App() {
         </div>
      {hoveredDesc && <div class={`hidden max-[1069px]:hidden block lg:flex justify-start gap-x-14 items-center w-[80%] mx-auto pb-9 ${hoveredDesc && `text-[${hoveredDesc[1].bg}]`} `}>
         <div class={`w-20 h-1 ${hoveredDesc && `bg-[${hoveredDesc[1].bg}]` }`}></div>
-        <p class={`text-5xl font-extrabold font-[Lato] leading-[52px] ${hoveredDesc && `text-[${hoveredDesc[0].bg}]`}`}>{hoveredDesc && hoveredDesc[1].des}</p>
+        <p class={`text-5xl font-extrabold font-[Lato] leading-[52px] text-gray ${hoveredDesc && `text-[${hoveredDesc[0].bg}]`}`}>{hoveredDesc && hoveredDesc[1].des}</p>
           </div>}
           </div>
         </div>
