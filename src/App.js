@@ -545,7 +545,7 @@ function App() {
         });
       });
     });
-  }, [data]);
+  }, []);
   const textColorClass = hoveredDesc ? `${hoveredDesc[1].bg}` : '';
   return (
     <div>
@@ -739,7 +739,7 @@ function App() {
           </div>
           <div>
           <div className='min-[1069px]:flex justify-center items-end pt-16 pb-6 max-[1069px]:hidden block relative'>
-            <img src={table} className='absolute top-[68px] right-[50px] min-[1400px]:right-[70px] 2xl:right-[92px]'/>
+            <img src={table} alt="table" className='absolute top-[68px] right-[50px] min-[1400px]:right-[70px] 2xl:right-[92px]'/>
             <div className='w-1/10 p-1 flex flex-col gap-2'>
             {p1.map((panel) => (
                 <div className="border rounded-lg border-black overflow-hidden relative"
